@@ -10,6 +10,9 @@ class Dog
     @all << self
   end
 
+  def count
+    @all.count
+  end
   def self.all
     @all
   end
