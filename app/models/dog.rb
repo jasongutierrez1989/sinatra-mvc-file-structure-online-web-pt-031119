@@ -6,7 +6,7 @@ class Dog
     @name = name
     @breed = breed
     @age = age
-    @count += 1
+    @count ++
     @all << self
   end
 
