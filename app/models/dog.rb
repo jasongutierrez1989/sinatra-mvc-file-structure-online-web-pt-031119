@@ -11,7 +11,7 @@ class Dog
   end
 
   def self.count
-    @all.count
+    @count
   end
 
   def self.all
