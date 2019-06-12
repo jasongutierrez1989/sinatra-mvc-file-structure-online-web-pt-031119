@@ -3,16 +3,14 @@ class Dog
 
   def initialize(name, breed, age)
     @all = []
-    @count = 0
     @name = name
     @breed = breed
     @age = age
-    @count +=1
     @all << self
   end
 
   def self.count
-    @count
+    @self.all.count
   end
 
   def self.all
